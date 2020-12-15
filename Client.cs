@@ -11,7 +11,7 @@ namespace RulesService
         public HttpClient AccountClient()
         {
             var client = new HttpClient();
-            client.BaseAddress = new Uri("https://localhost:44338");
+            client.BaseAddress = new Uri("http://20.62.143.11/");
             return client;
         }
 
